@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", system-ui;;
+}
+
+body {
+    background-image: url(./assets/personaje-dibujos-animados-3d\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0.625rem;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+.box__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 25px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background: aliceblue;
+        color: #603F26;
+        width: 300px;
+        height: 255px;
+}
+
+.box__result {
+    display: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    color: #603F26;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px;
+}
+    
+    
+.box__title {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box__user {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 12px 10px;
+    width: 250px;
+}
+
+.box__button {
+    color: #603F26;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    background: #807c7c;
+    border: 2px solid #603F26;
+    border-radius: 8px;
+    margin-top: 1px;
+    padding: 5px;
+    width: 150px;
+}
+
+.box__button:hover {
+    cursor: pointer;
+}
